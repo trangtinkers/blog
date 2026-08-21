@@ -17,6 +17,7 @@
 - Gendlin Focusing
 - [[Divine Proportions - Rational Trigonometry to Universal Geometry]]
 - [[This Is Water]]
+- [[Free to Learn]]
 
 [[Thread by @ejames_c how to seek feedback]]
 

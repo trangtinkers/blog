@@ -1,3 +1,6 @@
+---
+source: https://artofproblemsolving.com/wiki/index.php/Binet%27s_Formula
+---
 If $F_n$ is the $n$th Fibonacci number, then
 
 $$

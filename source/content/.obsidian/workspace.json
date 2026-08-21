@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math Academy Notes.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Math Academy Notes"
+              "title": "index"
+            }
+          },
+          {
+            "id": "ea8501a201e32860",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics via Problems - Algebra.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mathematics via Problems - Algebra"
             }
           }
         ]
@@ -51,7 +65,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -63,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "math academy",
+                "query": "Chopin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +100,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -105,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/In praise of voice notes.md",
+                "file": "Instant Pot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +130,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for In praise of voice notes"
+              "title": "Backlinks for Instant Pot"
             }
           },
           {
@@ -176,6 +191,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -187,34 +203,35 @@
   },
   "active": "2b4ae6ca45dde37c",
   "lastOpenFiles": [
-    "Free to Learn.md",
-    "Math Academy Notes.md",
-    "2025-05-07.md",
-    "Clippings/Thread by @DefenderOfBasic ADHD.md",
-    "Clippings/Discovering a formula for the cubic.md",
+    "2025-08-18.md",
     "Mathematics via Problems - Algebra.md",
+    "Clippings/Have you ever felt so moved by music on a unexplainable level?.md",
+    "Clippings/Thread by @vgr make more money.md",
+    "Untitled 1.md",
+    "2025-09-07.md",
+    "Clippings/How to Use HTML to Open a Link in a New Tab.md",
+    "Clippings/Thread by @morganhousel Enron.md",
+    "Clippings/The Average Fourth Grader Is a Better Poet Than You (and Me Too).md",
+    "Instant Pot.md",
+    "Clippings/Why Instant Pot Users Are Obsessing Over This $35 Cart from Target.md",
+    "2025-08-26.md",
     "Binet's Formula.md",
+    "Clippings/What Fibonacci taught me about programming.md",
+    "Clippings/Automatically resolve Syncthing conflicts using a three-way merge.md",
+    "Automatically Merge Obsidian Conflicts.md",
+    "2025-08-17.md",
+    "2025-06-02.md",
+    "Clippings/Install help for Ubuntu 20.04 on a Lenovo Thinkcentre M81.md",
+    "Clippings/Hi, I'm Malcolm Gladwell, author of The Tipping Point, Blink, Outliers and--most recently--David and Goliath Underdogs, Misfits and the Art of Battling Giants. Ask me anything!.md",
+    "Clippings/Thread by @QiaochuYuan crying.md",
+    "Clippings/Thread by @QiaochuYuan crying.md~",
+    "Clippings/Sketchy Calendar.md",
+    "Free to Learn.md",
+    "How to Learn to See the World As It Is.md",
     "index.md",
-    "Clippings/Thread by @visakanv maxxed out.md",
-    "Clippings/Harnessing Children’s Natural Ways of Learning.md",
-    "Projectile Motion.md",
-    "How to Improvise And Compose Music.md",
-    "Clippings/Thread by @ChrisAlvino.md",
-    "Clippings/Thread by @QiaochuYuan shadow work.md",
-    "energy levels.md",
+    "Clippings/Thread by @vgr expand emotional range.md",
     "Clippings/Thread by @QiaochuYuan shadow work.md~",
-    "Clippings/Thread by @IaimforGOAT.md",
-    "Clippings/Rick Rubin's stripped down approach to making music.md",
-    "Clippings/Thread by @ejames_c how to seek feedback.md",
-    "Clippings/Thread by @VividVoid_.md",
     "Clippings/Thread by @VividVoid_.md~",
-    "Clippings/Thread by @visakanv caring about fictional characters.md",
-    "Clippings/Thread by @visakanv intimidated.md",
-    "Clippings/Thread by @DefenderOfBasic co-worker at planetary slack.md",
-    "How to remove timestamps from chess pgn using regex in vim.md",
-    "Clippings/Thread by @DefenderOfBasic marketing.md",
-    "Clippings/Thread by @DefenderOfBasic 5.md",
-    "Clippings/In praise of voice notes.md",
     "Clippings/Thread by @DefenderOfBasic everyone is your coworker.md~",
     "Clippings/Thread by @Cantide1.md~",
     "Clippings/Thread by @RichDecibels the problem with gift economies.md~",
@@ -231,7 +248,6 @@
     "Clippings/Thread by @__drewface.md~",
     "Clippings/Thread by @QiaochuYuan feeling math.md~",
     "Clippings/Thread by @ShriramKMurthi programming language.md~",
-    "Clippings/Thread by @visakanv unlikeable characters in fiction framed in ways that are compelling.md~",
-    "Clippings/Thread by @visakanv caring about fictional characters.md~"
+    "Clippings/Thread by @visakanv unlikeable characters in fiction framed in ways that are compelling.md~"
   ]
 }

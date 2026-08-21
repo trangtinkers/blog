@@ -19,6 +19,7 @@ Triple angle formulas. You can easily reconstruct these from the addition and do
 3.2.5. (a) Similarly to 3.1 .5 (b) $\cos \frac{\pi}{9}, \cos \frac{7 \pi}{9}$, and $\cos \frac{13 \pi}{9}$ are the roots of $4 y^3-3 y=\frac{1}{2}$. By 3.3.5 (b) there are no other roots.
 
 Answer: $x \in\left\{\cos \frac{\pi}{9}, \cos \frac{7 \pi}{9}, \cos \frac{13 \pi}{9}\right\}$.
+
 (b) The substitution $y=2 x$ reduces this to (a).
 
 Answer: $x \in\left\{2 \cos \frac{\pi}{9}, 2 \cos \frac{7 \pi}{9}, 2 \cos \frac{13 \pi}{9}\right\}$.

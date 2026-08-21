@@ -1,6 +1,8 @@
 
 *Update July 2025: I wouldn't recommend Math Academy to most people anymore because the program is designed around the wrong assumptions about education.*
 - [[Free to Learn]]: Why Unleashing the Instinct to Play Will Make Our Children Happier, More Self-Reliant, and Better Students for Life
+
+---
 ## Some context for MF III
 
 - adding some context to MA courses
