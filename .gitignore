@@ -2,3 +2,9 @@
 
 source/content/.obsidian/workspace.json
 source/content/.obsidian/workspace
+
+# local quartz build output
+source/node_modules/
+source/public/
+source/quartz/.quartz-cache/
+source/tsconfig.tsbuildinfo
