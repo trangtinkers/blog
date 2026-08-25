@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "2025-06-02.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "2025-06-02"
             }
           },
           {
@@ -178,8 +178,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ]
@@ -203,33 +203,33 @@
   },
   "active": "2b4ae6ca45dde37c",
   "lastOpenFiles": [
+    "2025-08-26.md",
+    "2025-09-07.md",
+    "2025-06-02.md",
     "2025-08-18.md",
+    "2025-08-17.md",
+    "2025-05-07.md",
+    "2025-03-06.md",
+    "2025-02-21.md",
+    "2025-03-03.md",
+    "2025-02-20.md",
+    "2025-02-18.md",
+    "2025-02-16.md",
+    "2025-02-14.md",
+    "2025-02-10.md",
+    "2025-02-09.md",
+    "2025-01-27.md",
+    "2025-01-25.md",
+    "Distributed Systems.md",
+    "index.md",
     "Mathematics via Problems - Algebra.md",
     "Clippings/Have you ever felt so moved by music on a unexplainable level?.md",
     "Clippings/Thread by @vgr make more money.md",
     "Untitled 1.md",
-    "2025-09-07.md",
     "Clippings/How to Use HTML to Open a Link in a New Tab.md",
     "Clippings/Thread by @morganhousel Enron.md",
     "Clippings/The Average Fourth Grader Is a Better Poet Than You (and Me Too).md",
-    "Instant Pot.md",
-    "Clippings/Why Instant Pot Users Are Obsessing Over This $35 Cart from Target.md",
-    "2025-08-26.md",
-    "Binet's Formula.md",
-    "Clippings/What Fibonacci taught me about programming.md",
-    "Clippings/Automatically resolve Syncthing conflicts using a three-way merge.md",
-    "Automatically Merge Obsidian Conflicts.md",
-    "2025-08-17.md",
-    "2025-06-02.md",
-    "Clippings/Install help for Ubuntu 20.04 on a Lenovo Thinkcentre M81.md",
-    "Clippings/Hi, I'm Malcolm Gladwell, author of The Tipping Point, Blink, Outliers and--most recently--David and Goliath Underdogs, Misfits and the Art of Battling Giants. Ask me anything!.md",
-    "Clippings/Thread by @QiaochuYuan crying.md",
     "Clippings/Thread by @QiaochuYuan crying.md~",
-    "Clippings/Sketchy Calendar.md",
-    "Free to Learn.md",
-    "How to Learn to See the World As It Is.md",
-    "index.md",
-    "Clippings/Thread by @vgr expand emotional range.md",
     "Clippings/Thread by @QiaochuYuan shadow work.md~",
     "Clippings/Thread by @VividVoid_.md~",
     "Clippings/Thread by @DefenderOfBasic everyone is your coworker.md~",
