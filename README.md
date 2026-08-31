@@ -1,6 +1,6 @@
 # Obsidian / Quartz / GitHub Pages Template
 
-Deployed URL: https://tinkererthinker.github.io/blog
+Deployed URL: https://trangtinkers.github.io/blog
 
 Template for hosting your Obsidian notebook on GitHub pages with CI deployment. 
 
