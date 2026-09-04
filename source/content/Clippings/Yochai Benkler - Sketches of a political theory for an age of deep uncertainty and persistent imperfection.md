@@ -10,7 +10,7 @@ tags:
 ---
 ![](https://www.youtube.com/watch?v=6Wn4Sf6EpP0)
 
-Information Influx public opening:- Welcome Louise Gunning-Schepers (University of Amsterdam), Edgar du Perron (University of Amsterdam) and Bernt Hugenholtz...
+This talk is essentially an update on "The Wealth of Networks" which Benkler published back in 2006.
 
 # Summary
 
