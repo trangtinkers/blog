@@ -5,7 +5,9 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  // `afterBody` lives on SharedLayout, not PageLayout, so the quotation
+  // attribution is registered here. It renders only on `type: quotation` notes.
+  afterBody: [Component.Quotation()],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/tinkererthinker",
@@ -20,6 +22,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    // Renders only on notes with `type: blogmark` in frontmatter.
+    Component.Blogmark(),
   ],
   left: [
     Component.PageTitle(),
@@ -27,10 +31,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
-
   ],
   right: [
-    Component.Graph(),
+    // Renders only on typed posts; untyped notes see the usual sidebar.
+    Component.Metabox(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
     Component.RecentNotes({
