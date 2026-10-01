@@ -1,5 +1,16 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { QuartzComponent, QuartzComponentProps } from "./quartz/components/types"
+
+// Renders the wrapped component only on the home page (content/index.md).
+const IndexOnly = (component: QuartzComponent): QuartzComponent => {
+  const Wrapped: QuartzComponent = (props: QuartzComponentProps) =>
+    props.fileData.slug === "index" ? component(props) : null
+  Wrapped.css = component.css
+  Wrapped.beforeDOMLoaded = component.beforeDOMLoaded
+  Wrapped.afterDOMLoaded = component.afterDOMLoaded
+  return Wrapped
+}
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -7,7 +18,17 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   // `afterBody` lives on SharedLayout, not PageLayout, so the quotation
   // attribution is registered here. It renders only on `type: quotation` notes.
-  afterBody: [Component.Quotation()],
+  afterBody: [
+    Component.Quotation(),
+    IndexOnly(
+      Component.RecentNotes({
+        showTags: true,
+        title: "Recently updated notes:",
+        showDate: true,
+        limit: 4,
+      }),
+    ),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/tinkererthinker",
@@ -37,12 +58,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Metabox(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    Component.RecentNotes({
-      showTags: true,
-      title: "Recently updated notes:",
-      showDate: true,
-      limit: 4,
-    }),
   ],
 }
 
