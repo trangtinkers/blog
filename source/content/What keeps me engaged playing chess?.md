@@ -21,8 +21,9 @@ So now we know that the way to get better at chess is building these representat
 - How did Carlsen pick up chess culture from books?
 - > Dubov: ‘You put him in any position and he will stay calm and play. There are players who specialize in this and that. Carlsen is not like that. He is simply the greatest talent I have seen.’
     - How come that he can play any type of position while specialists struggle?
-        - I learned from Data-Frame theory that constructing representations on demand prepares you to face novel situations.
-            - Highlight: You may also have noticed how the exercise forces you to engage in _repeated frame construction as you’re making sense of the situation_ — which we’ve covered in our essay on How Experts Sensemake.
+        - I learned from [[Data-Frame theory]] that constructing representations on demand prepares you to face novel situations.
+            - > You may also have noticed how the exercise forces you to engage in _repeated frame construction as you’re making sense of the situation_ — which we’ve covered in our essay on How Experts Sensemake.
+            - > Most importantly, however, you may have noticed that as you construct multiple frames repeatedly over the course of the exercise, **you are building the ability to deal with scenarios you’ve never seen before**
 - > The ability to make plans is clearly visible in the endgame. This aspect of the game is often a matter of culture, and in chess Carlsen’s culture is enormous
 - > Overall, the Norwegian is remarkable in his ability to immediately see the small plans. He has the gift of seizing – or sensing – any mini-plan opportunity, as soon as a new position appears on the board. That’s why he’s at his best in rapid games, as he needs almost no time to adapt to a new situation.
 - > 'In going for this I was inspired by games of Spassky.' Carlsen knows every player and every important game of the past; recently (in 2020), he had just read a book about Cigorin and was trying to reproduce his opening set-ups. Not many members of the top 10 have this culture. 'I have to admit that I still don't completely understand the point... part of the reason why I played it is that it looks cool.'
