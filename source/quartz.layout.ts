@@ -43,6 +43,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    // Inline copy of the table of contents for phones/tablets, where the right
+    // sidebar drops below the article. See .toc rules in toc.scss.
+    Component.MobileOnly(Component.TableOfContents()),
     // Renders only on notes with `type: blogmark` in frontmatter.
     Component.Blogmark(),
   ],

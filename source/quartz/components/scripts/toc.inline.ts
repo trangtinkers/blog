@@ -2,14 +2,12 @@ const bufferPx = 150
 const observer = new IntersectionObserver((entries) => {
   for (const entry of entries) {
     const slug = entry.target.id
-    const tocEntryElement = document.querySelector(`a[data-for="${slug}"]`)
+    // A page can have two TOCs (sidebar + inline on small screens), so update every link.
+    const tocEntryElements = document.querySelectorAll(`a[data-for="${slug}"]`)
     const windowHeight = entry.rootBounds?.height
-    if (windowHeight && tocEntryElement) {
-      if (entry.boundingClientRect.y < windowHeight) {
-        tocEntryElement.classList.add("in-view")
-      } else {
-        tocEntryElement.classList.remove("in-view")
-      }
+    if (windowHeight) {
+      const inView = entry.boundingClientRect.y < windowHeight
+      tocEntryElements.forEach((el) => el.classList.toggle("in-view", inView))
     }
   }
 })
@@ -26,11 +24,9 @@ function toggleToc(this: HTMLElement) {
 }
 
 function setupToc() {
-  const toc = document.getElementById("toc")
-  if (toc) {
-    const collapsed = toc.classList.contains("collapsed")
+  for (const toc of document.querySelectorAll<HTMLElement>("button#toc")) {
     const content = toc.nextElementSibling as HTMLElement | undefined
-    if (!content) return
+    if (!content) continue
     toc.addEventListener("click", toggleToc)
     window.addCleanup(() => toc.removeEventListener("click", toggleToc))
   }

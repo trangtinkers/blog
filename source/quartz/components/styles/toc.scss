@@ -1,9 +1,23 @@
+@use "../../styles/variables.scss" as *;
+
 .toc {
   display: flex;
   flex-direction: column;
+  // Below the desktop breakpoint the right sidebar sits under the article, so the
+  // sidebar copy is hidden and the inline copy under the title is shown instead.
   &.desktop-only {
     display: flex;
     max-height: 40%;
+    @media all and ($desktop) {
+      display: none;
+    }
+  }
+  &.mobile-only {
+    display: none;
+    margin-top: 1rem;
+    @media all and ($desktop) {
+      display: flex;
+    }
   }
 }
 
