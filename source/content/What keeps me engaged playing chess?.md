@@ -34,7 +34,7 @@ So now we know that the way to get better at chess is building these representat
 - What does Magnus Carlsen bring to the game?
 - Do chess engines evaluate positions with respect to how likely it is that you can go wrong?
 
-From the description of The Magnus Method that you saved:
+From the description of The Magnus Method:
 
 > He explains a key element in the World Champion’s play: instead of the ‘absolute’ best move **he often plays the move that is likely to give him the better chances.** Carlsen’s singular ability to win positions that are equal or only very slightly favourable comes down to this: he doesn’t let his opponents get what they hope for while offering them the maximum amount of chances to go wrong.
 
