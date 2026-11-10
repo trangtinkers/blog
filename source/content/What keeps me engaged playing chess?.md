@@ -4,7 +4,7 @@ published: 2026-11-10
 tags:
   - chess
 ---
-My own notes on chess and improvement.
+My own notes on chess improvement.
 
 ## My notes
 
@@ -17,6 +17,10 @@ So now we know that the way to get better at chess is building these representat
 - Trying to diagnose why I am plateauing in blitz games.
 
 ### **Nov 9, 2026: reading The Magnus Method**
+
+The tweet that inspired me to investigate how Magnus got so good at chess:
+
+![](https://twitter.com/DavidDeutschOxf/status/1616880041018662914)
 
 - How did Carlsen pick up chess culture from books?
 - > Dubov: ‘You put him in any position and he will stay calm and play. There are players who specialize in this and that. Carlsen is not like that. He is simply the greatest talent I have seen.’
