@@ -1,3 +1,11 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Tweet embeds: the site uses `color-scheme: dark` in dark mode, but Twitter's iframe
+// document is light, so browsers paint an opaque white backdrop behind it (visible at the
+// rounded corners). Matching the iframe's color-scheme keeps it transparent.
+.twitter-tweet iframe {
+  color-scheme: light;
+  border-radius: 12px;
+}

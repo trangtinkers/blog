@@ -8,7 +8,7 @@ My own notes on chess and improvement.
 
 ## My notes
 
-**Nov 10, 2026 (voice note)**
+### **Nov 10, 2026 (voice note)**
 
 So now we know that the way to get better at chess is building these representations while being faced with different positions. Playing blitz doesn't really support that. You need to give yourself room to pay attention to the position and to make your own judgments. What do you notice about it? How would you respond? How would your opponent respond? During a blitz game, you simply don't have time to form new mental images. You're basically playing on autopilot, making decisions based on the representations you've already built. And if there aren't many, then you're simply playing on instinct. There's not enough time for you to notice what's important about the position. So playing blitz only tests what you already know and what you've already paid a lot of attention to. That means that in order to give yourself the space to build new representations, you would have to play longer games, like rapid games. Or, if you don't play games, go through a book of annotated games and cover the annotations. Cover the moves that were played, and only read until it's your turn and you have to make a move.
 
@@ -16,7 +16,7 @@ So now we know that the way to get better at chess is building these representat
 
 - Trying to diagnose why I am plateauing in blitz games.
 
-**Nov 9, 2026: reading The Magnus Method**
+### **Nov 9, 2026: reading The Magnus Method**
 
 - How did Carlsen pick up chess culture from books?
 - > Dubov: ‘You put him in any position and he will stay calm and play. There are players who specialize in this and that. Carlsen is not like that. He is simply the greatest talent I have seen.’
@@ -27,7 +27,7 @@ So now we know that the way to get better at chess is building these representat
 - > Overall, the Norwegian is remarkable in his ability to immediately see the small plans. He has the gift of seizing – or sensing – any mini-plan opportunity, as soon as a new position appears on the board. That’s why he’s at his best in rapid games, as he needs almost no time to adapt to a new situation.
 - > 'In going for this I was inspired by games of Spassky.' Carlsen knows every player and every important game of the past; recently (in 2020), he had just read a book about Cigorin and was trying to reproduce his opening set-ups. Not many members of the top 10 have this culture. 'I have to admit that I still don't completely understand the point... part of the reason why I played it is that it looks cool.'
 
-**Nov 8, 2026: What exactly keeps me engaged playing chess?**
+### **Nov 8, 2026: What exactly keeps me engaged playing chess?**
 
 - I think when I encounter a particular playing style, point of view or an idea that intrigues me. When I don't like a chess book, I pick another one. You don't have to read Mastering Chess Strategy just because it is highly recommended. Again, diversity is key, changing the relationship to the game. I found that analyzing games with an engine doesn't keep me engaged, I don't like it, I feel a certain resistance.
 - So, I discovered this author Emmanuel Neiman. The description of his book The Magnus Method caught my attention.

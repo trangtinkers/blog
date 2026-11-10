@@ -29,6 +29,7 @@ export interface Options {
   parseBlockReferences: boolean
   enableInHtmlEmbed: boolean
   enableYouTubeEmbed: boolean
+  enableTweetEmbed: boolean
   enableVideoEmbed: boolean
   enableCheckbox: boolean
 }
@@ -44,6 +45,7 @@ const defaultOptions: Options = {
   parseBlockReferences: true,
   enableInHtmlEmbed: false,
   enableYouTubeEmbed: true,
+  enableTweetEmbed: true,
   enableVideoEmbed: true,
   enableCheckbox: false,
 }
@@ -131,6 +133,8 @@ const tagRegex = new RegExp(
 const blockReferenceRegex = new RegExp(/\^([-_A-Za-z0-9]+)$/g)
 const ytLinkRegex = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/
 const ytPlaylistLinkRegex = /[?&]list=([^#?&]*)/
+const tweetLinkRegex =
+  /^https?:\/\/(?:www\.|mobile\.)?(?:twitter|x)\.com\/([A-Za-z0-9_]{1,15})\/status(?:es)?\/(\d+)/
 const videoExtensionRegex = new RegExp(/\.(mp4|webm|ogg|avi|mov|flv|wmv|mkv|mpg|mpeg|3gp|m4v)$/)
 const wikilinkImageEmbedRegex = new RegExp(
   /^(?<alt>(?!^\d*x?\d*$).*?)?(\|?\s*?(?<width>\d+)(x(?<height>\d+))?)?$/,
@@ -639,6 +643,33 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
         })
       }
 
+      if (opts.enableTweetEmbed) {
+        plugins.push(() => {
+          return (tree: HtmlRoot) => {
+            visit(tree, "element", (node) => {
+              if (node.tagName === "img" && typeof node.properties.src === "string") {
+                const match = node.properties.src.match(tweetLinkRegex)
+                if (match) {
+                  // Tweet: Twitter's widgets.js upgrades this blockquote into a full tweet card.
+                  // Without JS it still shows as a quote with a link to the tweet.
+                  const href = `https://twitter.com/${match[1]}/status/${match[2]}`
+                  node.tagName = "blockquote"
+                  node.properties = { class: "twitter-tweet", "data-dnt": "true" }
+                  node.children = [
+                    {
+                      type: "element",
+                      tagName: "a",
+                      properties: { href },
+                      children: [{ type: "text", value: `View post by @${match[1]} on X` }],
+                    },
+                  ]
+                }
+              }
+            })
+          }
+        })
+      }
+
       if (opts.enableCheckbox) {
         plugins.push(() => {
           return (tree: HtmlRoot, _file) => {
@@ -701,6 +732,30 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
           `,
           loadTime: "afterDOMReady",
           moduleType: "module",
+          contentType: "inline",
+        })
+      }
+
+      if (opts.enableTweetEmbed) {
+        js.push({
+          script: `
+          document.addEventListener('nav', () => {
+            const tweets = document.querySelectorAll("blockquote.twitter-tweet")
+            if (tweets.length === 0) return
+            const theme = document.documentElement.getAttribute('saved-theme') === 'dark' ? 'dark' : 'light'
+            tweets.forEach((t) => t.setAttribute('data-theme', theme))
+            if (window.twttr && window.twttr.widgets) {
+              window.twttr.widgets.load()
+            } else if (!document.getElementById('twitter-wjs')) {
+              const s = document.createElement('script')
+              s.id = 'twitter-wjs'
+              s.src = 'https://platform.twitter.com/widgets.js'
+              s.async = true
+              document.head.appendChild(s)
+            }
+          });
+          `,
+          loadTime: "afterDOMReady",
           contentType: "inline",
         })
       }
