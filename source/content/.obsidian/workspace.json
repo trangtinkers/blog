@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "What keeps me engaged playing chess?.md",
+                "file": "Watching George Hotz for the technical details.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What keeps me engaged playing chess?"
+              "title": "Watching George Hotz for the technical details"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5124969482422,
-    "collapsed": true
+    "width": 266.5124969482422
   },
   "right": {
     "id": "ba1ec06a672fb227",
@@ -180,8 +179,9 @@
   },
   "active": "ea8501a201e32860",
   "lastOpenFiles": [
-    "Data-Frame theory.md",
     "What keeps me engaged playing chess?.md",
+    "Watching George Hotz for the technical details.md",
+    "Data-Frame theory.md",
     "Transcripts/Richard Bartlett - Occupy Wall Street as Bootstrapping Collective Intelligence.md",
     "Mechanistic Interpretability.md",
     "Pasted image 20250423112918.png",
@@ -211,7 +211,6 @@
     "Daily Notes/2025-02-21.md",
     "Daily Notes/2025-02-20.md",
     "Daily Notes/2025-03-06.md",
-    "Daily Notes/2025-05-07.md",
     "Daily Notes",
     "Clippings/Thread by @QiaochuYuan crying.md~",
     "Clippings/Thread by @QiaochuYuan shadow work.md~",
